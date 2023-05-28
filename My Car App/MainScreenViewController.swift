@@ -11,13 +11,25 @@ class MainScreenViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "My car"
-    navigationController?.navigationBar.prefersLargeTitles = true
+    setupNavigationBar()
     view.backgroundColor = .white
-    //Test
-    //Test dev
+  }
+  
+  private func setupNavigationBar() {
+    title = MainScreenString.navigationBarTitle.localized
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.rightBarButtonItem = UIBarButtonItem(
+      title: MainScreenString.rightBarButtonTitle.localized,
+      style: .plain,
+      target: self,
+      action: #selector(pushExpensesListViewController)
+    )
   }
 
+  @objc private func pushExpensesListViewController() {
+    let expensesListViewController = ExpensesListViewController()
+    navigationController?.pushViewController(expensesListViewController, animated: true)
+  }
 
 }
 
