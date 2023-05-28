@@ -16,10 +16,10 @@ class MainScreenViewController: UIViewController {
   }
   
   private func setupNavigationBar() {
-    title = "My car"
+    title = MainScreenString.navigationBarTitle.localized
     navigationController?.navigationBar.prefersLargeTitles = true
     navigationItem.rightBarButtonItem = UIBarButtonItem(
-      title: "Expenses",
+      title: MainScreenString.rightBarButtonTitle.localized,
       style: .plain,
       target: self,
       action: #selector(pushExpensesListViewController)
