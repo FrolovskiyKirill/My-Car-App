@@ -12,6 +12,7 @@
 		ED3C4B422A2337EE0003F196 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C4B412A2337EE0003F196 /* MainScreenViewController.swift */; };
 		ED3C4B472A2337F00003F196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3C4B462A2337F00003F196 /* Assets.xcassets */; };
 		ED3C4B4A2A2337F00003F196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3C4B482A2337F00003F196 /* LaunchScreen.storyboard */; };
+		ED6AF79E2A2341840082C6B3 /* ExpensesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF79D2A2341840082C6B3 /* ExpensesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED3C4B462A2337F00003F196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3C4B492A2337F00003F196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3C4B4B2A2337F00003F196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6AF79D2A2341840082C6B3 /* ExpensesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3C4B412A2337EE0003F196 /* MainScreenViewController.swift */,
+				ED6AF79D2A2341840082C6B3 /* ExpensesListViewController.swift */,
 				ED3C4B512A23386A0003F196 /* Resources */,
 			);
 			path = "My Car App";
@@ -144,6 +147,7 @@
 			files = (
 				ED3C4B422A2337EE0003F196 /* MainScreenViewController.swift in Sources */,
 				ED3C4B3E2A2337EE0003F196 /* AppDelegate.swift in Sources */,
+				ED6AF79E2A2341840082C6B3 /* ExpensesListViewController.swift in Sources */,
 				ED3C4B402A2337EE0003F196 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
